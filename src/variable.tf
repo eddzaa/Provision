@@ -15,7 +15,7 @@ variable "ami" {
   default     = "ami-07d9b9ddc6cd8dd30"
 }
 variable "tags" {
-  type    = map(string)
+  type = map(string)
   default = {
     Name = "single-instance"
   }
